@@ -4,7 +4,7 @@ const displayDiv = document.getElementById("diaplay_images");
 const categoryTitle = document.getElementById("categoryTitle");
 
 const unsplash = createApi({
-  accessKey: "9vx8r413brlRKpWFvy4vDW3JgQ1wH9-uB4jlzjDFIIQ",
+  accessKey: "process.env.key",
 });
 
 var storeData = [];
